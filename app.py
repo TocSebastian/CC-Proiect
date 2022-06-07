@@ -3,9 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pandas.io import gbq
-import requests
 import pandas_gbq
-from bs4 import BeautifulSoup
 from google.oauth2 import service_account
 
 st.header("Movie Dataframe")
